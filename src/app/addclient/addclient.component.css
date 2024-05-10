@@ -1,0 +1,71 @@
+h1 {
+    color: black;
+    text-decoration: underline;
+  }
+
+  p{
+    font-size: small;
+    font-weight: normal;
+    color: black;
+    /* margin-bottom: 10px; */
+    margin-left: 185px;
+    margin-top: 2px;
+  }
+  .relo label[type="lab"] {
+    font-style: italic;
+    font-size: small;
+    /* margin-left: 120px; */
+    
+    
+  }
+  
+  .relo input[type="text"] {
+    width: 40%;
+    text-decoration: #3c3c3c;
+    font-size: 16px;
+    height: 30px;
+    border: 2px solid #cccccc;
+    border-radius: 4px;
+    margin: 10px 150px;
+  }
+
+  #client{
+    width: 40%;
+    text-decoration: #3c3c3c;
+    font-size: 16px;
+    height: 40px;
+    border: 2px solid #cccccc;
+    border-radius: 4px;
+    margin: 10px 100px;
+  }
+ 
+  hr{
+    width: 85%;
+    height: 1px;
+    background-color:black;
+    border: thin;
+    margin: 10px 0px;
+  }
+
+  .relo button[type="b"] {
+    background-color: royalblue;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 6px 10px;
+    text-align: center;
+  }
+  
+  .relo button[type="bn"] {
+    background-color: royalblue;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 10px 18px;
+    text-align: center;
+    float: right;
+    /* text-decoration: none; */
+    /* display: inline-block; */
+    font-size: 16px;
+    margin: 10px 7px;
+  }

@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AddInstructors</title>
+  </head>
+  <body>
+
+    <div
+      style="
+        align-items: center;
+        height: auto;
+        padding-top: 20px;
+        padding-left: 100px;
+        margin-top: 100px;
+      "
+    >
+    <h1>Add Course</h1>
+    <nav
+        class="navbar"
+        style="
+          width: 83%;
+          height: 50px;
+          align-items: center;
+          overflow: hidden;
+          background-color: skyblue;
+        "
+      >
+        <a class="navbar-brand">AddCourse</a>
+        <form style="float: right" class="form-inline">
+          <button>submit</button>
+          <!-- <ion-icon name="close-outline"></ion-icon> -->
+        </form>
+      </nav>
+      
+
+      <!-- Name Section -->
+      <form class="relo">
+        <div style="align-items: center; text-decoration: none">
+          <label type="lab" for="name"> Name* </label>
+          <input
+            type="text"
+            id="firstname"
+            name="firstname"
+            placeholder="Enter your Name"
+            required
+          /><br />
+          <span id="usernameStatus" class="help-block"
+            >FirstName is required!</span
+          >
+        </div>
+
+        <!-- Describition Section -->
+        <div>
+          <label type="lab" for="describtion">Describtion*</label>
+          <textarea
+            type="textar"
+            rows="4"
+            cols="50"
+            name="comment"
+            placeholder="Enter Describtion"
+          ></textarea>
+        </div>
+
+        <!-- Course Section -->
+        <div>
+          <label type="lab">Course Report <br />Recipients </label>
+
+          <input
+            type="recip"
+            list="browsers"
+            name="browser"
+            id="browser"
+            placeholder="Select a Tags"
+          />
+          <datalist selected id="browsers">
+            <option value="Edge"></option>
+            <option value="Firefox"></option>
+            <option value="Chrome"></option>
+            <option value="Opera"></option>
+            <option value="Safari"></option></datalist
+          ><br />
+          <span id="usernameStatus" class="help-block"
+            ><b>+Add New Recipients</b></span
+          >
+          <!-- <p type="p"><b>+Add New Recipients</b></p> -->
+
+          <br />
+        </div>
+
+        <!-- Measurement Plane -->
+        <div>
+          <label type="lab">Measurement Plan*</label>
+          <input
+            type="measure"
+            name="form"
+            placeholder="Measurement Plan"
+            required
+            list="destinations"
+          /><br />
+          <span id="usernameStatus" class="help-block"
+            ><b>This is a required field</b></span
+          >
+
+          <datalist id="destinations">
+            <option value="IU">IU</option>
+            <option value="VU">VU</option>
+            <option value="KU">KU</option></datalist
+          ><br />
+        </div>
+
+        <div>
+          <label type="lab">Course Group*</label>
+          <input
+            type="Group"
+            name="form"
+            placeholder="Course Group"
+            required
+            list="destinations"
+          />
+
+          <datalist id="destinations">
+            <option value="IU">IU</option>
+            <option value="VU">VU</option>
+            <option value="KU">KU</option></datalist
+          ><br />
+        </div>
+
+        <div>
+          <label type="lab">Type*</label>
+          <input
+            type="text"
+            name="form"
+            placeholder="Search & Select Course Type"
+            required
+            list="destinations"
+          />
+
+          <datalist id="destinations">
+            <option value="IU">IU</option>
+            <option value="VU">VU</option>
+            <option value="KU">KU</option></datalist
+          ><br />
+        </div>
+
+        <div>
+          <label type="lab">External Course ID*</label>
+          <input
+            type="measure"
+            name="form"
+            placeholder="i.e 12345"
+            required
+            list="destinations"
+          />
+
+          <datalist id="destinations"></datalist><br />
+        </div>
+
+        <div>
+          <label type="lab">Course Survey Email <br />Percentage*</label>
+          <input
+            type="percentage"
+            name="form"
+            placeholder="100%"
+            required
+            list="destinations"
+          />
+
+          <datalist id="destinations">
+            <option value="50%">50%</option>
+            <option value="60%">60%</option>
+            <option value="70%">70%</option></datalist
+          >
+        </div>
+
+        <hr />
+
+      
+        <button style="margin-right: 180px;" type="bn" class="button">Cancel</button>
+    
+        <button type="bn" class="button">Add Image</button>
+      
+      </form>
+    </div>
+  </body>
+</html>

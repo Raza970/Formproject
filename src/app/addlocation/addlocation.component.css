@@ -1,0 +1,78 @@
+
+
+h1 {
+    color: black;
+    text-decoration: underline;
+  }
+ 
+
+  .relo label[type="lab"] {
+    font-style: italic;
+    font-size: small;
+    /* margin-left: 120px; */
+    
+    
+  }
+  
+  .relo input[type="text"] {
+    width: 40%;
+    text-decoration: #3c3c3c;
+    font-size: 16px;
+    height: 30px;
+    border: 2px solid #cccccc;
+    border-radius: 4px;
+    margin: 10px 115px;
+  }
+
+  .relo input[type="alias"] {
+    width: 40%;
+    text-decoration: #3c3c3c;
+    font-size: 16px;
+    height: 30px;
+    border: 2px solid #cccccc;
+    border-radius: 4px;
+    margin: 10px 170px;
+  }
+
+  .relo input[type="tim"] {
+    width: 40%;
+    text-decoration: #3c3c3c;
+    font-size: 16px;
+    height: 30px;
+    border: 2px solid #cccccc;
+    border-radius: 4px;
+    margin: 10px 138px;
+  }
+  .relo input[type="Id"] {
+    width: 40%;
+    text-decoration: #3c3c3c;
+    font-size: 16px;
+    height: 30px;
+    border: 2px solid #cccccc;
+    border-radius: 4px;
+    margin: 10px 130px;
+  }
+ 
+  hr{
+    width: 85%;
+    height: 1px;
+    background-color:black;
+    border: thin;
+    margin: 10px 0px;
+  }
+  
+  .relo button[type="bn"] {
+    background-color: royalblue;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 10px 18px;
+    text-align: center;
+    float: right;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 7px;
+    /* margin-right: 50px; */
+    cursor: pointer;
+  }

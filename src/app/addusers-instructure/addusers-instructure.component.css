@@ -1,0 +1,117 @@
+.button1 {
+    background:royalblue;
+    border: none;
+    color: wheat;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 0px;
+    cursor: pointer;
+  }
+
+  .button2{
+    border-color: royalblue;
+    color: royalblue;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 0px;
+    cursor: pointer;
+  }
+  .button2:hover{
+    border: none;
+    background-color: royalblue;
+    color: white;
+ 
+  }
+
+  label[type="lab"] {
+    font-style: italic;
+    font-size: small;
+  }
+
+  input[type="typesel"] {
+    width: 60%;
+    height: 30px;
+    text-decoration: #3c3c3c;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    margin: 40px 175px;
+  }
+
+  input[type="text"] {
+    width: 30%;
+    height: 30px;
+    text-decoration: #3c3c3c;
+    /* font-size: 16px; */
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    margin: 30px 200px;
+  }
+
+  input[type="textt"] {
+    width: 45%;
+    height: 30px;
+    text-decoration: #3c3c3c;
+    /* font-size: 16px; */
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    margin: 30px 80px;
+  }
+
+  #client{
+    width: 60%;
+    text-decoration: #3c3c3c;
+    font-size: 16px;
+    height: 30px;
+    border: 2px solid #cccccc;
+    border-radius: 4px;
+    margin: 30px 155px;
+  }
+  
+  .flex-container {
+    /* display: flex; */
+    display: inline-flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+  }
+
+button[type="b"] {
+    background-color: royalblue;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 6px 10px;
+    text-align: center;
+    /* text-decoration: none; */
+    /* display: inline-block; */
+    /* font-size: 15px; */
+    /* cursor: pointer; */
+  }
+  
+   button[type="bn"] {
+    background-color: royalblue;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 10px 18px;
+    text-align: center;
+    float: right;
+    /* text-decoration: none; */
+    /* display: inline-block; */
+    font-size: 16px;
+    margin: 10px 7px;
+    /* margin-right: 50px; */
+    /* cursor: pointer; */
+  }
+  
+  /* .flex-container > div {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 5px;
+  } */

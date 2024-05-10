@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div
+      style="
+        align-items: center;
+        height: auto;
+        padding-top: 20px;
+        padding-left: 100px;
+        margin-top: 100px;
+      "
+    >
+    <h2>Email Form</h2>
+      <div>
+        <form class="relo">
+          <div>
+            <label type="lab" for="name"> Name* </label>
+            <input type="text" id="firstname" name="firstname" required /><br />
+            <span id="usernameStatus" class="help-block"
+              >FirstName is required!</span
+            ><br />
+          </div>
+
+          <div>
+            <label type="lab"
+              >Type*</label>
+              <input
+                type="typesel"
+                name="form"
+                placeholder="Select a Form Type"
+                required
+                list="destinations"
+              />
+              <p type="type">select a form type</p>
+            
+            <datalist id="destinations">
+              <option value="IU">IU</option>
+              <option value="VU">VU</option>
+              <option value="KU">KU</option></datalist
+            ><br />
+          </div>
+
+          <div>
+            <label type="lab" for="choice"
+              >Reminder*
+              <p>Is this a survey reminder form?</p>
+            </label>
+
+            <div style="display: flex; margin-left: 160px">
+              <div>
+                <input type="radio" id="gender" name="gender" value="male" />Yes
+              </div>
+              <div>
+                <input
+                  type="radio"
+                  id="gender"
+                  name="gender"
+                  value="female"
+                />No
+                <br />
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+
+      <!-- Email Section -->
+
+      <div style="margin-top: 50px;">
+        <form class="relo">
+          <div>
+            <h3>Email Message</h3>
+            <label type="lab" for="name"> Form* </label>
+            <input id="name" type="form" name="form" required /><br />
+          </div>
+
+          <!-- Flex Container -->
+          <div class="flex-container">
+            <div>
+              <label type="lab" for="name"> Subject* </label>
+              <input id="name" type="typee" name="form" required />
+              <button type="bn" class="button">Add Image</button>
+            </div>
+
+            <div>
+              <input
+                type="type"
+                list="browsers"
+                name="browser"
+                id="browser"
+                placeholder="Select a Tags"
+              />
+              <datalist id="browsers">
+                <option value="Edge"></option>
+                <option value="Firefox"></option>
+                <option value="Chrome"></option>
+                <option value="Opera"></option>
+                <option value="Safari"></option>
+              </datalist>
+
+              <button type="b" class="button">Add</button>
+
+              <input
+                type="type"
+                list="browsers"
+                name="browser"
+                id="browser"
+                placeholder="Select a Tag"
+              />
+              <datalist id="browsers">
+                <option value="Edge"></option>
+                <option value="Firefox"></option>
+                <option value="Chrome"></option>
+                <option value="Opera"></option>
+                <option value="Safari"></option>
+              </datalist>
+
+              <button type="b" class="button">Add</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    
+  </body>
+</html>

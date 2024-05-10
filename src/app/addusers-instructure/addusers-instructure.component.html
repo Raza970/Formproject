@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UseR Instructure</title>
+  </head>
+  <body>
+    <div
+      style="
+        align-items: center;
+        height: auto;
+        padding-top: 20px;
+        padding-left: 100px;
+        margin-top: 100px;
+      "
+    >
+      <h1>Add Course</h1>
+      <nav
+        class="navbar"
+        style="
+          width: 83%;
+          height: 50px;
+          align-items: center;
+          overflow: hidden;
+          background-color: skyblue;
+        "
+      >
+        <a class="navbar-brand">AddCourse</a>
+        <form style="float: right" class="form-inline">
+          <button>submit</button>
+          <!-- <ion-icon name="close-outline"></ion-icon> -->
+        </form>
+      </nav>
+      <div style="margin-top: 30px;">
+        <button class="button button1">User</button>
+        <button class="button button2">Instructure</button>
+      </div>
+
+      <div>
+        <label type="lab">User Group*</label>
+        <input
+          type="typesel"
+          name="form"
+          placeholder="Select User Group"
+          required
+          list="destinations"
+        />
+        <datalist id="destinations">
+          <option value="IU">IU</option>
+          <option value="VU">VU</option>
+          <option value="KU">KU</option></datalist
+        ><br />
+      </div>
+
+      <div class="flex-container">
+      <div>
+        <label type="lab" for="name"> Name* </label>
+        <input type="text" id="firstname" name="firstname" required />
+      </div>
+
+      <div>
+        <label type="lab" for="name"> Last Name* </label>
+        <input type="textt" id="firstname" name="firstname" required />
+      </div>
+    </div>
+
+      <div style="align-items: center; text-decoration: none">
+        <label type="lab" for="name"> Email Domain* </label>
+        <input
+          type="email"
+          id="client"
+          name="client"
+          placeholder="i.e 123@abc.com"
+        />
+      </div>
+
+      <div>
+        <label type="lab" for="name"> Status* </label>
+        <input
+          style="margin-left: 200px; margin-top: 30px"
+          type="checkbox"
+          id="vehicle1"
+          name="vehicle1"
+          value="Bike"
+        />
+        <label style="margin-left: 10px" for="vehicle1">Active</label>
+      </div>
+
+      <div>
+        <label type="lab" for="name">Email Login Details* </label>
+        <input
+          style="margin-left: 128px; margin-top: 30px"
+          type="checkbox"
+          id="vehicle1"
+          name="vehicle1"
+          value="Bike"
+        />
+        <label style="margin-left: 10px" for="vehicle1">Yes</label>
+      </div>
+
+      <div style="margin-left: 240px; margin-top: 30px;">
+        <p>This user will be prompted to creat a new password</p>
+      </div>
+
+      
+      <button style="margin-right: 180px;" type="bn" class="button">Cancel</button>
+        <button type="bn" class="button">Add Image</button>
+    
+    </div>
+  </body>
+</html>

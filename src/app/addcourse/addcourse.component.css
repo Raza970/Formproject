@@ -1,0 +1,126 @@
+
+
+h1 {
+    color: black;
+    text-decoration: underline;
+  }
+  p[type="p"] {
+    font-size: small;
+    font-weight: lighter;
+    color: black;
+    /* margin-bottom: 10px; */
+    margin-left: 100px;
+    margin-top: 2px;
+  }
+  
+  
+  h3 {
+    color: rgb(93, 92, 92);
+  }
+  .relo label[type="lab"] {
+    font-style: italic;
+    font-size: small;
+    /* margin-left: 120px; */
+    
+    
+  }
+ span {
+    font-size: small;
+    font-weight: lighter;
+    color: red;
+    /* margin-bottom: 10px; */
+    margin-left: 220px;
+  }
+  
+  .relo input[type="text"] {
+    width: 65%;
+    text-decoration: #3c3c3c;
+    font-size: 16px;
+    height: 30px;
+    border: 2px solid #cccccc;
+    border-radius: 4px;
+    margin: 10px 185px;
+  }
+
+  .relo input[type="recip"] {
+    width: 65%;
+    text-decoration: #3c3c3c;
+    /* align-items: center; */
+    /* padding: 4px 100px; */
+    font-size: 16px;
+    height: 30px;
+    border: 2px solid #cccccc;
+    border-radius: 4px;
+    margin: 10px 140px;
+  }
+
+  .relo input[type="percentage"] {
+    width: 65%;
+    text-decoration: #3c3c3c;
+    /* align-items: center; */
+    /* padding: 4px 100px; */
+    font-size: 16px;
+    height: 30px;
+    border: 2px solid #cccccc;
+    border-radius: 4px;
+    margin: 10px 100px;
+  }
+
+  .relo input[type="measure"] {
+    width: 65%;
+    text-decoration: #3c3c3c;
+    /* align-items: center; */
+    /* padding: 4px 100px; */
+    font-size: 16px;
+    height: 30px;
+    border: 2px solid #cccccc;
+    border-radius: 4px;
+    margin: 10px 107px;
+  }
+
+  .relo input[type="Group"] {
+    width: 65%;
+    text-decoration: #3c3c3c;
+    /* align-items: center; */
+    /* padding: 4px 100px; */
+    font-size: 16px;
+    height: 30px;
+    border: 2px solid #cccccc;
+    border-radius: 4px;
+    margin: 10px 135px;
+  }
+ 
+  
+  .relo textarea[type="textar"] {
+    width: 65%;
+    height: 200px;
+    text-decoration: #3c3c3c;
+    /* padding: 4px 50px; */
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    margin: 10px 153px;
+  }
+  hr{
+    width: 80%;
+    height: 1px;
+    background-color:black;
+    border: thin;
+    margin: 10px 110px;
+  }
+  
+  .relo button[type="bn"] {
+    background-color: royalblue;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 10px 18px;
+    text-align: center;
+    float: right;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 7px;
+    /* margin-right: 50px; */
+    cursor: pointer;
+  }

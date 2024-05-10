@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Location</title>
+  </head>
+  <body>
+    <div
+      style="
+        align-items: center;
+        height: auto;
+        padding-top: 20px;
+        padding-left: 100px;
+        margin-top: 100px;
+      "
+    >
+      <h1>Add Location</h1>
+      <nav
+        class="navbar"
+        style="
+          width: 83%;
+          height: 50px;
+          align-items: center;
+          overflow: hidden;
+          background-color: skyblue;
+        "
+      >
+        <a class="navbar-brand">AddLocation</a>
+        <form style="float: right" class="form-inline">
+          <button>submit</button>
+          <!-- <ion-icon name="close-outline"></ion-icon> -->
+        </form>
+      </nav>
+
+      <!-- Name Section -->
+      <form class="relo">
+        <div style="align-items: center; text-decoration: none">
+          <label type="lab" for="name"> Location Name* </label>
+          <input
+            type="text"
+            id="fname"
+            name="fname"
+            placeholder="Enter Location Name"
+          />
+        </div>
+
+        <!-- Alias -->
+        <div style="align-items: center; text-decoration: none">
+          <label type="lab" for="name"> Alias* </label>
+          <input
+            type="alias"
+            id="fname"
+            name="fname"
+            placeholder="Enter Alias Name"
+          />
+        </div>
+
+        <!-- Time zone -->
+        <div>
+          <label type="lab">Time Zone*</label>
+          <input
+            style="
+              width: 40%;
+              text-decoration: #3c3c3c;
+              font-size: 16px;
+              height: 30px;
+              border: 2px solid #cccccc;
+              border-radius: 4px;
+              margin: 10px 138px;
+            "
+            type="time"
+            id="fname"
+            name="fname"
+            placeholder="Time zone"
+          />
+        </div>
+
+        <!-- City -->
+        <div>
+          <label type="lab">City*</label>
+          <input type="alias" id="fname" name="fname" placeholder="City" />
+        </div>
+
+        <!-- Country -->
+        <div>
+          <label type="lab">Country*</label>
+          <select
+            style="
+              width: 40%;
+              text-decoration: #3c3c3c;
+              font-size: 16px;
+              height: 30px;
+              border: 2px solid #cccccc;
+              border-radius: 4px;
+              margin: 10px 145px;
+            "
+            name="languages"
+            id="lang"
+          >
+            <option value="select">Select a Language</option>
+            <option value="javascript">JavaScript</option>
+            <option value="php">PHP</option>
+            <option value="java">Java</option>
+            <option value="golang">Golang</option>
+            <option value="python">Python</option>
+            <option value="c#">C#</option>
+            <option value="C++">C++</option>
+            <option value="erlang">Erlang</option>
+          </select>
+
+          <!-- <input type="country" id="fname" name="fname" placeholder="Country"> -->
+        </div>
+
+        <div>
+          <label type="lab">External ID*</label>
+          <input type="Id" id="ExId" name="ExID" placeholder="Enter your ID" />
+        </div>
+
+        <hr />
+
+        <button style="margin-right: 180px;" type="bn" class="button">Cancel</button>
+
+        <button type="bn" class="button">Add Image</button>
+      </form>
+    </div>
+  </body>
+</html>
